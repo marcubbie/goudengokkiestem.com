@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kiwi Maru', serif;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+button{
+    outline: none;
+    border: none;
+}
+input{
+    outline: none;
+    border: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.2);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #FFD700;
+}
+nav ul{
+    display: flex;
+    margin-right: 40px;
+}
+    nav ul a {
+        /*height: 40px;
+        line-height: 43px;
+        margin: 20px;
+        padding: 0px 17px;
+        display: flex;
+        font-size: 0.7rem;
+        text-transform: lowercase;
+        font-weight: 500;
+        color: #000000;
+        letter-spacing: 1.5px;
+        transition: 0.6s ease-out;
+        margin-right: -95px;*/
+    }
+    nav ul li a:hover {
+        border-left: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        border-right: 1px solid #000000;
+        border-top: 1px solid #000000;
+        box-shadow: 5px 10px 30px rgba(255,217,0,0.4);
+        transition: 0.6s ease-in;
+        transition: 0.6s ease-out;
+    }
+.active {
+    border-left: 1px solid #e9c966;
+    border-bottom: 1px solid #e9c966;
+    border-right: 1px solid #e9c966;
+    border-top: 1px solid #e9c966;
+    box-shadow: 5px 10px 30px rgba(255,217,0,0.4);
+}
+
+
+#header {
+    width: 100%;
+    height: 707px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("1634583.jpg");
+    position: relative;
+}
+.header-heading {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    color: #fff;
+}
+.header-heading h1{
+    font-size: 70px;
+    margin: 0px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    color: #e9c966;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+.header-heading h2{
+    color: #fff;
+    font-size: 40px;
+}
+.btn {
+    width: 360px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFD700;
+    /*box-shadow: 5px 40px 40px rgba(255,217,0,0.4);*/
+    border-radius: 20px;
+    color: #000;
+    margin-top: 50px;
+    margin-bottom: -350px;
+    font-weight: 500;
+    transition: 0.6s ease-out;
+    font-size: 70px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 500px;
+    font-family: 'Phudu', Arial;
+    /*box-shadow: 5px 40px 40px rgba(255,217,0,1);*/
+    position: absolute;
+    left: 100%;
+    transform: translateX(-50%);
+    bottom: 250px;
+    border: none;
+    background: none;
+}
+    .btn a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        box-shadow: 5px 10px 30px rgba(255, 217, 0, 1);
+        transition: 0.6s ease-out;
+
+    }
+    .btn a:hover {
+        background-color: #DAA520;
+    }
+    .btn img {
+        width: 200%;
+        height: 200%;
+        object-fit: cover;
+        border-radius: 60px;
+        margin-top: 0px;
+        margin-right: -50px;
+        box-shadow: 0 0 20px #FFD700;
+        transition: 0.6s ease-out;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo img {
+    width: 80px;
+    height: auto;
+    margin-left: -500px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin-right: -250px;
+    padding: 0;
+}
+
+    .menu li {
+        margin: 0 15px;
+    }
+
+    .menu a {
+        color: #ffffff;
+        font-size: 18px;
+    }
+
+.home-link {
+    font-family: 'Phudu', Arial, sans-serif;
+}
